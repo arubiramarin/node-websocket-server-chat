@@ -1,17 +1,16 @@
 {
   "name": "node-websocket-server-chat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Server with nodejs and websocket for showcase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "Antonio Rubira Marín (XE04784)",
   "license": "Copyright BBVA 2018",
-  "main": "index.js",
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^1.7.3"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm start"
   }
 }
